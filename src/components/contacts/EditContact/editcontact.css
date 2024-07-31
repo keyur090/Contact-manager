@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+   .col-md-3 {
+    display: flex;
+    justify-content: center;
+   }
+   .col-md-3 .contact-img{
+    margin-top: 2rem;
+    width: full;
+   }
+  }
+
+  .col-md-3 .contact-img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+  }
+

@@ -1,0 +1,90 @@
+{
+  "contacts": [
+    {
+      "id": "ABC",
+      "name": "John Doe",
+      "photo": "http://localhost:5173/src/assets/img.jpg",
+      "mobile": "8900909090",
+      "email": "John@gmail.com",
+      "title": "Frontend Developer",
+      "company": "Dvij Infotech",
+      "groupId": "6"
+    },
+    {
+      "id": "XYZ",
+      "name": "Aidm Swan",
+      "photo": "http://localhost:5173/src/assets/pre.jpg",
+      "mobile": "9898989898",
+      "email": "Aidm@gmail.com",
+      "title": "Backend Developer",
+      "company": "The PlanetSoft",
+      "groupId": "5"
+    },
+    {
+      "id": "MNC",
+      "name": "Paul Qua",
+      "photo": "http://localhost:5173/src/assets/per.jpg",
+      "mobile": "9765678987",
+      "email": "Paul@gmail.com",
+      "title": "Software Developer",
+      "company": "Facebook",
+      "groupId": "4"
+    },
+    {
+      "id": "RSU",
+      "name": "Jacky",
+      "photo": "http://localhost:5173/src/assets/img.jpg",
+      "mobile": "7897897890",
+      "email": "John@gmail.com",
+      "title": "Web Developer",
+      "company": "Youtube",
+      "groupId": "3"
+    },
+    {
+      "id": "EFG",
+      "name": "Markey Robort",
+      "photo": "http://localhost:5173/src/assets/pers.jpg",
+      "mobile": "9090889877",
+      "email": "John@gmail.com",
+      "title": "HR Manager",
+      "company": "TCS",
+      "groupId": "2"
+    },
+    {
+      "id": "3210",
+      "name": "Sharadhha",
+      "photo": "http://localhost:5173/src/assets/img.jpg",
+      "mobile": "7898989878",
+      "email": "sharadhha@gmail.com",
+      "company": "Reliance Digital",
+      "title": "Back Office",
+      "groupId": "5"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Brother"
+    },
+    {
+      "id": "3",
+      "name": "Community"
+    },
+    {
+      "id": "4",
+      "name": "Family"
+    },
+    {
+      "id": "5",
+      "name": "Social"
+    },
+    {
+      "id": "6",
+      "name": "Service"
+    }
+  ]
+}
