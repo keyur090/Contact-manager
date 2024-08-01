@@ -3,8 +3,8 @@
     {
       "id": "ABC",
       "name": "John Doe",
-      "photo": "http://localhost:5173/src/assets/img.jpg",
-      "mobile": "8900909090",
+      "photo": "http://localhost:5173/src/assets/img1.jpg",
+      "mobile": "(987) 222-4488",
       "email": "John@gmail.com",
       "title": "Frontend Developer",
       "company": "Dvij Infotech",
@@ -28,12 +28,12 @@
       "email": "Paul@gmail.com",
       "title": "Software Developer",
       "company": "Facebook",
-      "groupId": "4"
+      "groupId": "1"
     },
     {
       "id": "RSU",
       "name": "Jacky",
-      "photo": "http://localhost:5173/src/assets/img.jpg",
+      "photo": "http://localhost:5173/src/assets/img2.jpg",
       "mobile": "7897897890",
       "email": "John@gmail.com",
       "title": "Web Developer",

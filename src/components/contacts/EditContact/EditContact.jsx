@@ -202,7 +202,7 @@ const EditContact = () => {
                         value="Update"
                       />
                       <Link to={"/contacts/list"} className="btn btn-dark m-2">
-                        Cencel
+                        Cancel
                       </Link>
                     </div>
                   </form>
