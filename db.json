@@ -59,6 +59,16 @@
       "company": "Reliance Digital",
       "title": "Back Office",
       "groupId": "5"
+    },
+    {
+      "id": "ac90",
+      "name": "admin",
+      "photo": "http://localhost:5173/src/assets/loading.gif",
+      "mobile": "(981) 445-8899",
+      "email": "admin@gmail.com",
+      "company": "MRF",
+      "title": "Head Office",
+      "groupId": "5"
     }
   ],
   "groups": [

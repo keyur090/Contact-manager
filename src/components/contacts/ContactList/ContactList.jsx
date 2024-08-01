@@ -40,7 +40,7 @@ const ContactList = () => {
           contacts: response.data,
           filterdContacts: response.data,
           loading: false,
-          errorMessage: "", // Clear error message on successful fetch
+          errorMessage: "", 
         });
       } catch (err) {
         setState({
@@ -75,6 +75,7 @@ const ContactList = () => {
       });
     }
   };
+ 
 
   const { loading, errorMessage, filterdContacts } = state;
 
@@ -110,7 +111,6 @@ const ContactList = () => {
                         type="text"
                         className="form-control"
                         placeholder="Search Names"
-                        // style={{ width: '30vw' }}
                       />
                     </div>
                   </div>
@@ -132,13 +132,14 @@ const ContactList = () => {
 
       {loading ? (
         <Spinner />
-      ) : errorMessage ? (
-        <div className="container mt-3">
-          <div className="alert alert-danger" role="alert">
-            {errorMessage}
-          </div>
-        </div>
-      ) : (
+        
+      )  : errorMessage ? (
+    <div className="container mt-3">
+      <div className="alert alert-danger" role="alert">
+        {errorMessage}
+      </div>
+    </div>
+  ) : (
         <section className="contact-list p-15">
           <div className="container">
             <div className="row">
